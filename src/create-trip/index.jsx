@@ -64,7 +64,7 @@ function CreateTrip() {
                 },
             });
             const userProfile = response.data;
-    
+
             // Save user profile to localStorage
             localStorage.setItem('user', JSON.stringify(userProfile));
             toast.success("Login successful!");
@@ -187,14 +187,16 @@ function CreateTrip() {
 
             {/* Login Dialog */}
             <Dialog open={openDialog} onOpenChange={setOpenDialog}>
-                <DialogContent className="p-6">
+                <DialogContent className="bg-white p-6 rounded-lg shadow-lg z-50 fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <DialogHeader>
-                        <DialogTitle>Login Required</DialogTitle>
+                        <DialogTitle className="text-lg font-bold text-black">Login Required</DialogTitle>
                     </DialogHeader>
-                    <Button className="mt-4 flex items-center justify-center w-full py-2 border bg-white text-black 
-                    hover:border-gray-500 transition-all duration-200"
-                        onClick={login}>
-                        <FcGoogle className="mr-2 size-6" /> Continue with Google
+                    <Button
+                        className="mt-4 flex items-center justify-center w-full py-2 border bg-white text-black 
+            hover:border-gray-500 hover:bg-gray-100 transition-all duration-200"
+                        onClick={login}
+                    >
+                        <FcGoogle className="mr-2 h-6 w-6" /> Continue with Google
                     </Button>
                 </DialogContent>
             </Dialog>
