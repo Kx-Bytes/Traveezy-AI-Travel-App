@@ -1,0 +1,8 @@
+1.For AI Model : https://aistudio.google.com/
+
+2.shadcn : ->give inbuilt stuffs like button and sooner<-
+
+3.Used googleAutoComplete :  -> npm i react-google-autocomplete --save <-   -> trip_planner/.env.local <-
+
+4.React OAuth | Google : -> For google authentication <-
+
