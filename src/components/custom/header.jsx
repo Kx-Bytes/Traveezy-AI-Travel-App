@@ -117,15 +117,18 @@ const Header = () => {
                         </motion.div>
 
                         <Dialog open={openDailog} onOpenChange={setopenDailog}>
-                            <DialogContent>
+                            <DialogContent className="bg-white p-6 rounded-lg shadow-lg z-50 fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                                 <DialogHeader>
-                                    <img src="/logo.svg" alt="Logo" className="size-[50%]" />
+                                    <img src="/logo1.png" alt="Logo" className="size-[50%]" />
                                     <h2 className="font-bold mt-5 text-lg text-black">Sign in with Google</h2>
                                     <DialogDescription>
                                         Sign in with Google authentication securely
                                     </DialogDescription>
                                 </DialogHeader>
-                                <Button className="w-full mt-5 flex items-center justify-center gap-2" onClick={() => login()}>
+                                <Button
+                                    className="w-full mt-5 flex items-center justify-center gap-2 bg-white text-black border border-gray-300 hover:bg-gray-100"
+                                    onClick={() => login()}
+                                >
                                     <FcGoogle className="h-7 w-7" /> Sign In with Google
                                 </Button>
                             </DialogContent>
