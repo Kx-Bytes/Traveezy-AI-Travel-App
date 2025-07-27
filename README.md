@@ -1,8 +1,23 @@
 # React + Vite
+# ✈️ AI Trip Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An **AI-powered Trip Planner** that helps users create personalized travel itineraries with the power of AI.  
+---
 
-Currently, two official plugins are available:
+## ✨ Features
+✅ **AI‑Generated Itineraries** – Get day‑wise travel plans based on your preferences  
+✅ **Dynamic Destination Suggestions** – Explore places, activities, and hidden gems  
+✅ **Customizable Travel Dates & Budgets**  
+✅ **Responsive UI** – Built with modern frontend technologies  
+✅ **Easy Integration with APIs** – Fetch location data, images, and more
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🖥️ Tech Stack
+| Layer | Technology |
+|-------|------------|
+| Frontend | React.js / Next.js (or whichever framework you used) |
+| Backend | Node.js / Express (or as per your implementation) |
+| AI | OpenAI API (GPT‑3.5 / GPT‑4) or similar LLM API |
+| Styling | Tailwind CSS / CSS Modules |
+| Deployment | Vercel / Netlify / Render |
